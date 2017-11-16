@@ -10,7 +10,9 @@
 <link rel="stylesheet" href="vendor/owlcarousel/dist/assets/owl.theme.default.min.css">
 <link href="vendor/featherlight/src/featherlight.gallery.css" type="text/css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css">
+<link rel=”shortcut icon” type=”image/x-icon” href=”framelines.ico”>
   <title>Framelines.photo</title>
+
  
 </head>
 
@@ -24,24 +26,37 @@
     </a>
     </div>
   </div>
+<div id="background"></div>
+  <div id="backToTop">
+      <div id="menuBtn" class="burger">
+          <div id="x" class="x"></div>
+          <div id="y" class="y"></div>
+          <div id="z" class="z"></div>
+      </div>
+
+    <div id="menuSlide" class="menuMobile slideMenuOpen">
+      <a href="#about">About Me</a>
+      <hr>
+      <a href="#portfolio">My Work</a>
+      <hr>
+      <a href="#blog">The Blog</a>
+      <hr>
+      <a href="#contact">Contact</a>
+    </div>
+
+    </div>
+
+  
 
   <section class="intro" id="intro">
-    <div class="pageFlex background1">
-      <a href="#home"><div class="backArrow1"></div></a>
+    <div class="pageFlex">
       <h1>Welcome</h1>
       <h2>Hi and welcome to framelines.photo</h3>
       <h3>This is a side project that I have started about my experience with Film photography. <br><br> I will go through some of the images that I have taken that hold some special meaning to me as well as reviews of cameras I own.</h4>
-      <a href="#portfolio">
-        <div class="navArrow1"></div>
-      </a>
       </div>
-  </section>
 
   <section id="portfolio">
-    <div class="pageFlex background2">
-      <a href="#intro">
-        <div class="backArrow2"></div>
-     </a>
+    <div class="portfolio">
       <h2>Take a look at my photos</h2>
 <div class="owl-carousel owl-theme">
   <div class="item">
@@ -78,20 +93,60 @@
   <div class="item">
     <img src="assets/portfolio/p11.jpg" class="galleryImg" alt="">
   </div>
- 
 </div>
-      <a href="#contact">
-      <div class="navArrow2"></div>
-      </a>
+    </div>
+  </section>
+</section>
+
+  <section class="blog" id="blog">
+    <div class="pageFlex">
+      <div class="blogContainer">
+<h3>Have a look at the latest article on the blog.</h3>
+        <h3 class="blogTitle">
+          So it starts
+        </h3>
+        <p class="blogPost">
+            And so here it beings. I have had an interest in film photography for about five years now. I guess this post should be
+            about how it all started and how I got to the stage of writing my first post for this new blog all about my experience with
+            film and film cameras. I have been involved seriously in photography for about 6 years now and film photography has been
+            one of the my favourite parts of photography and I feel that it is the part of my photography that has grown the fastest
+            and continues to push me in my growth. My journey into film photography all happened by finding my Grandfathers Asahi Pentax
+            SP in the back of the wardrobe. It had a couple of lenses and at the time I had a Fujifilm XE-1 and thought about using the
+            lenses on that with an adaptor. After about 2 weeks of that I tried shooting my first roll of film and the obsession started
+            from there.
+        </p>
+        <a href="#" class="continue">Continue Reading.....</a>
+      </div>
+<hr>
+      <div class="blogContainer">
+        <h3 class="blogTitle">
+          My kind of instant gratification
+        </h3>
+        <p class="blogPost">
+          The digital world has lent itself to instant response and instant praise for things posted, take the photo, upload and watch
+          the likes roll in. One of the things I love with film photography is the waiting, I am usually quite slow to shot a roll
+          of film so when it comes to getting developed there can be a few months passed between the first and last frame.
+        </p>
+        <a href="#" class="continue">Continue Reading.....</a>
+      </div>
+<hr>
+      <div class="blogContainer">
+        <h3 class="blogTitle">
+          Example Title
+        </h3>
+        <p class="blogPost">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas aliquam debitis totam dolores nisi provident praesentium reprehenderit repellat velit ullam inventore laboriosam facere fuga consequuntur itaque, beatae maxime. Incidunt, sapiente.
+        </p>
+        <a href="#" class="continue">Continue Reading.....</a>
+      </div>
+
+
     </div>
   </section>
 
   <div class="flexContainer">
   <section class="contact" id="contact">
-    <div class="pageFlex background2">
-      <a href="#portfolio">
-        <div class="backArrow3"></div>
-      </a>
+    <div class="pageFlex">
     <div class="contactForm">
   
               <!-- SEND TO THANKS PAGE -->
@@ -121,6 +176,10 @@
 </div>
   </section>
 </div>
+
+<footer>
+  Made with some love and a bit of coffee........ok alot of coffee...
+</footer>
  
 
   <script src="vendor/jquery.js"></script>
